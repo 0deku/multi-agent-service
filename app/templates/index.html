@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Nike 智能客服</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <div class="chat-container">
+    <h1>Nike 智能客服</h1>
+    <div id="chat-box"></div>
+    <div class="input-box">
+      <input type="text" id="message" placeholder="请输入问题..." />
+      <button onclick="sendMessage()">发送</button>
+    </div>
+  </div>
+  <script>
+    async function sendMessage() {
+      const msg = document.getElementById("message").value;
+      if (!msg) return;
+      appendMessage("用户", msg);
+      document.getElementById("message").value = "";
+      const res = await fetch("/chat", {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({message: msg, session_id: "demo"})
+      });
+      const data = await res.json();
+      appendMessage(data.agent, data.response);
+    }
+
+    function appendMessage(role, text) {
+      const box = document.getElementById("chat-box");
+      const div = document.createElement("div");
+      div.className = "msg";
+      div.innerHTML = `<b>${role}:</b> ${text}`;
+      box.appendChild(div);
+      box.scrollTop = box.scrollHeight;
+    }
+  </script>
+</body>
+</html>

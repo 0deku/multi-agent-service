@@ -1,0 +1,6 @@
+[
+  {"sku": "NK-AF1-001", "name": "Air Force 1", "color": "white", "size": "42", "stock": 12, "price": 899},
+  {"sku": "NK-AM-090", "name": "Air Max 90", "color": "black", "size": "41", "stock": 5, "price": 999},
+  {"sku": "NK-JD-101", "name": "Jordan 1", "color": "red", "size": "43", "stock": 2, "price": 1299},
+  {"sku": "NK-TS-200", "name": "运动T恤", "color": "blue", "size": "L", "stock": 20, "price": 199}
+]
