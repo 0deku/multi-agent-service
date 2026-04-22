@@ -1,4 +1,0 @@
-[
-  {"order_id": "NKE2024-0001", "status": "已发货", "carrier": "顺丰", "tracking_no": "SF123456789", "items": ["Air Max 90"]},
-  {"order_id": "NKE2024-0002", "status": "待发货", "carrier": "圆通", "tracking_no": "", "items": ["Jordan 1"]}
-]
