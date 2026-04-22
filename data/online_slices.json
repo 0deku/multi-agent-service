@@ -1,0 +1,44 @@
+{
+  "slices": [
+    {
+      "name": "all",
+      "filters": {}
+    },
+    {
+      "name": "after_sales",
+      "filters": {"agent": "after_sales"}
+    },
+    {
+      "name": "promo",
+      "filters": {"agent": "promo"}
+    },
+    {
+      "name": "inventory",
+      "filters": {"agent": "inventory"}
+    },
+    {
+      "name": "sales",
+      "filters": {"agent": "sales"}
+    },
+    {
+      "name": "with_tool_errors",
+      "filters": {"has_tool_error": true}
+    },
+    {
+      "name": "failure_stage_tool",
+      "filters": {"failure_stage_in": ["tool"]}
+    },
+    {
+      "name": "failure_stage_rag",
+      "filters": {"failure_stage_in": ["rag"]}
+    },
+    {
+      "name": "failure_stage_response",
+      "filters": {"failure_stage_in": ["response", "policy"]}
+    },
+    {
+      "name": "high_latency",
+      "filters": {"min_latency_ms": 2000}
+    }
+  ]
+}

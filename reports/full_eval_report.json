@@ -1,0 +1,1127 @@
+{
+  "dataset_sizes": {
+    "agent": 80,
+    "router": 40,
+    "rag": 32,
+    "total": 152
+  },
+  "agent": {
+    "total": 80,
+    "correct": 76,
+    "accuracy": 0.95,
+    "per_domain": {
+      "after_sales": {
+        "total": 20,
+        "correct": 19,
+        "accuracy": 0.95
+      },
+      "promo": {
+        "total": 20,
+        "correct": 19,
+        "accuracy": 0.95
+      },
+      "inventory": {
+        "total": 20,
+        "correct": 18,
+        "accuracy": 0.9
+      },
+      "sales": {
+        "total": 20,
+        "correct": 20,
+        "accuracy": 1.0
+      }
+    },
+    "details": [
+      {
+        "query": "我想退货怎么办",
+        "domain": "after_sales",
+        "expect": "after_sales",
+        "got": "after_sales",
+        "ok": true
+      },
+      {
+        "query": "这笔订单可以换码吗",
+        "domain": "after_sales",
+        "expect": "after_sales",
+        "got": "inventory",
+        "ok": false
+      },
+      {
+        "query": "我的退款什么时候到账",
+        "domain": "after_sales",
+        "expect": "after_sales",
+        "got": "after_sales",
+        "ok": true
+      },
+      {
+        "query": "物流显示异常怎么处理",
+        "domain": "after_sales",
+        "expect": "after_sales",
+        "got": "after_sales",
+        "ok": true
+      },
+      {
+        "query": "订单已经发货还能改地址吗",
+        "domain": "after_sales",
+        "expect": "after_sales",
+        "got": "after_sales",
+        "ok": true
+      },
+      {
+        "query": "包裹一直没更新物流",
+        "domain": "after_sales",
+        "expect": "after_sales",
+        "got": "after_sales",
+        "ok": true
+      },
+      {
+        "query": "我收到的鞋子有瑕疵怎么售后",
+        "domain": "after_sales",
+        "expect": "after_sales",
+        "got": "after_sales",
+        "ok": true
+      },
+      {
+        "query": "取消订单后钱没退回来",
+        "domain": "after_sales",
+        "expect": "after_sales",
+        "got": "after_sales",
+        "ok": true
+      },
+      {
+        "query": "运单号查不到信息",
+        "domain": "after_sales",
+        "expect": "after_sales",
+        "got": "after_sales",
+        "ok": true
+      },
+      {
+        "query": "退货需要自己付邮费吗",
+        "domain": "after_sales",
+        "expect": "after_sales",
+        "got": "after_sales",
+        "ok": true
+      },
+      {
+        "query": "换货流程要多久",
+        "domain": "after_sales",
+        "expect": "after_sales",
+        "got": "after_sales",
+        "ok": true
+      },
+      {
+        "query": "申请售后要上传什么凭证",
+        "domain": "after_sales",
+        "expect": "after_sales",
+        "got": "after_sales",
+        "ok": true
+      },
+      {
+        "query": "签收后还能退吗",
+        "domain": "after_sales",
+        "expect": "after_sales",
+        "got": "after_sales",
+        "ok": true
+      },
+      {
+        "query": "快递丢件了怎么办",
+        "domain": "after_sales",
+        "expect": "after_sales",
+        "got": "after_sales",
+        "ok": true
+      },
+      {
+        "query": "订单拆单发货怎么查",
+        "domain": "after_sales",
+        "expect": "after_sales",
+        "got": "after_sales",
+        "ok": true
+      },
+      {
+        "query": "退货审核一般几天",
+        "domain": "after_sales",
+        "expect": "after_sales",
+        "got": "after_sales",
+        "ok": true
+      },
+      {
+        "query": "发票可以补开吗",
+        "domain": "after_sales",
+        "expect": "after_sales",
+        "got": "after_sales",
+        "ok": true
+      },
+      {
+        "query": "订单误下单如何取消",
+        "domain": "after_sales",
+        "expect": "after_sales",
+        "got": "after_sales",
+        "ok": true
+      },
+      {
+        "query": "物流显示已签收但我没收到",
+        "domain": "after_sales",
+        "expect": "after_sales",
+        "got": "after_sales",
+        "ok": true
+      },
+      {
+        "query": "如何联系客服处理售后",
+        "domain": "after_sales",
+        "expect": "after_sales",
+        "got": "after_sales",
+        "ok": true
+      },
+      {
+        "query": "现在有会员折扣吗",
+        "domain": "promo",
+        "expect": "promo",
+        "got": "promo",
+        "ok": true
+      },
+      {
+        "query": "学生认证有优惠活动吗",
+        "domain": "promo",
+        "expect": "promo",
+        "got": "promo",
+        "ok": true
+      },
+      {
+        "query": "满减活动怎么叠加",
+        "domain": "promo",
+        "expect": "promo",
+        "got": "promo",
+        "ok": true
+      },
+      {
+        "query": "有没有限时折扣",
+        "domain": "promo",
+        "expect": "promo",
+        "got": "promo",
+        "ok": true
+      },
+      {
+        "query": "会员日有什么福利",
+        "domain": "promo",
+        "expect": "promo",
+        "got": "promo",
+        "ok": true
+      },
+      {
+        "query": "优惠券可以和活动同用吗",
+        "domain": "promo",
+        "expect": "promo",
+        "got": "promo",
+        "ok": true
+      },
+      {
+        "query": "最近有什么促销",
+        "domain": "promo",
+        "expect": "promo",
+        "got": "promo",
+        "ok": true
+      },
+      {
+        "query": "新人首单有优惠吗",
+        "domain": "promo",
+        "expect": "promo",
+        "got": "promo",
+        "ok": true
+      },
+      {
+        "query": "如何升级会员等级",
+        "domain": "promo",
+        "expect": "promo",
+        "got": "promo",
+        "ok": true
+      },
+      {
+        "query": "生日月会发券吗",
+        "domain": "promo",
+        "expect": "promo",
+        "got": "promo",
+        "ok": true
+      },
+      {
+        "query": "plus会员有什么权益",
+        "domain": "promo",
+        "expect": "promo",
+        "got": "promo",
+        "ok": true
+      },
+      {
+        "query": "折扣码怎么使用",
+        "domain": "promo",
+        "expect": "promo",
+        "got": "promo",
+        "ok": true
+      },
+      {
+        "query": "活动期间包邮吗",
+        "domain": "promo",
+        "expect": "promo",
+        "got": "promo",
+        "ok": true
+      },
+      {
+        "query": "满多少减多少",
+        "domain": "promo",
+        "expect": "promo",
+        "got": "sales",
+        "ok": false
+      },
+      {
+        "query": "企业团购有优惠吗",
+        "domain": "promo",
+        "expect": "promo",
+        "got": "promo",
+        "ok": true
+      },
+      {
+        "query": "节日活动什么时候开始",
+        "domain": "promo",
+        "expect": "promo",
+        "got": "promo",
+        "ok": true
+      },
+      {
+        "query": "黑五有折扣吗",
+        "domain": "promo",
+        "expect": "promo",
+        "got": "promo",
+        "ok": true
+      },
+      {
+        "query": "会员积分怎么抵现",
+        "domain": "promo",
+        "expect": "promo",
+        "got": "promo",
+        "ok": true
+      },
+      {
+        "query": "买二送一活动规则",
+        "domain": "promo",
+        "expect": "promo",
+        "got": "promo",
+        "ok": true
+      },
+      {
+        "query": "优惠券过期了还能补发吗",
+        "domain": "promo",
+        "expect": "promo",
+        "got": "promo",
+        "ok": true
+      },
+      {
+        "query": "Air Max 90有41码吗",
+        "domain": "inventory",
+        "expect": "inventory",
+        "got": "inventory",
+        "ok": true
+      },
+      {
+        "query": "这款跑鞋还有黑色吗",
+        "domain": "inventory",
+        "expect": "inventory",
+        "got": "sales",
+        "ok": false
+      },
+      {
+        "query": "L码卫衣现在有货吗",
+        "domain": "inventory",
+        "expect": "inventory",
+        "got": "inventory",
+        "ok": true
+      },
+      {
+        "query": "白色款现在断货了吗",
+        "domain": "inventory",
+        "expect": "inventory",
+        "got": "inventory",
+        "ok": true
+      },
+      {
+        "query": "42.5码什么时候补货",
+        "domain": "inventory",
+        "expect": "inventory",
+        "got": "inventory",
+        "ok": true
+      },
+      {
+        "query": "这双鞋有女款38码吗",
+        "domain": "inventory",
+        "expect": "inventory",
+        "got": "inventory",
+        "ok": true
+      },
+      {
+        "query": "红色M码短裤有库存吗",
+        "domain": "inventory",
+        "expect": "inventory",
+        "got": "inventory",
+        "ok": true
+      },
+      {
+        "query": "这件外套还有XL吗",
+        "domain": "inventory",
+        "expect": "inventory",
+        "got": "inventory",
+        "ok": true
+      },
+      {
+        "query": "蓝色款和灰色款都在库吗",
+        "domain": "inventory",
+        "expect": "inventory",
+        "got": "inventory",
+        "ok": true
+      },
+      {
+        "query": "有现货可以今天发吗",
+        "domain": "inventory",
+        "expect": "inventory",
+        "got": "inventory",
+        "ok": true
+      },
+      {
+        "query": "这款有儿童尺码吗",
+        "domain": "inventory",
+        "expect": "inventory",
+        "got": "inventory",
+        "ok": true
+      },
+      {
+        "query": "门店和线上库存一致吗",
+        "domain": "inventory",
+        "expect": "inventory",
+        "got": "inventory",
+        "ok": true
+      },
+      {
+        "query": "S码是不是缺货",
+        "domain": "inventory",
+        "expect": "inventory",
+        "got": "inventory",
+        "ok": true
+      },
+      {
+        "query": "同款不同颜色库存情况",
+        "domain": "inventory",
+        "expect": "inventory",
+        "got": "inventory",
+        "ok": true
+      },
+      {
+        "query": "这双鞋能预售吗",
+        "domain": "inventory",
+        "expect": "inventory",
+        "got": "inventory",
+        "ok": true
+      },
+      {
+        "query": "库存多久同步一次",
+        "domain": "inventory",
+        "expect": "inventory",
+        "got": "inventory",
+        "ok": true
+      },
+      {
+        "query": "45码有没有",
+        "domain": "inventory",
+        "expect": "inventory",
+        "got": "inventory",
+        "ok": true
+      },
+      {
+        "query": "女款黑色37.5还在售吗",
+        "domain": "inventory",
+        "expect": "inventory",
+        "got": "sales",
+        "ok": false
+      },
+      {
+        "query": "白色L码是不是下架了",
+        "domain": "inventory",
+        "expect": "inventory",
+        "got": "inventory",
+        "ok": true
+      },
+      {
+        "query": "这件裤子M码和L码都缺吗",
+        "domain": "inventory",
+        "expect": "inventory",
+        "got": "inventory",
+        "ok": true
+      },
+      {
+        "query": "推荐一双适合通勤的鞋",
+        "domain": "sales",
+        "expect": "sales",
+        "got": "sales",
+        "ok": true
+      },
+      {
+        "query": "我想买轻便跑步鞋，预算800",
+        "domain": "sales",
+        "expect": "sales",
+        "got": "sales",
+        "ok": true
+      },
+      {
+        "query": "平时健身穿什么鞋舒服",
+        "domain": "sales",
+        "expect": "sales",
+        "got": "sales",
+        "ok": true
+      },
+      {
+        "query": "给我配一套春季训练穿搭",
+        "domain": "sales",
+        "expect": "sales",
+        "got": "sales",
+        "ok": true
+      },
+      {
+        "query": "脚弓偏高适合哪类跑鞋",
+        "domain": "sales",
+        "expect": "sales",
+        "got": "sales",
+        "ok": true
+      },
+      {
+        "query": "第一次跑半马买什么鞋",
+        "domain": "sales",
+        "expect": "sales",
+        "got": "sales",
+        "ok": true
+      },
+      {
+        "query": "我想要缓震好的篮球鞋",
+        "domain": "sales",
+        "expect": "sales",
+        "got": "sales",
+        "ok": true
+      },
+      {
+        "query": "通勤和周末都能穿的鞋有吗",
+        "domain": "sales",
+        "expect": "sales",
+        "got": "sales",
+        "ok": true
+      },
+      {
+        "query": "预算500以内推荐一套运动装",
+        "domain": "sales",
+        "expect": "sales",
+        "got": "sales",
+        "ok": true
+      },
+      {
+        "query": "夏天透气一点的训练服怎么选",
+        "domain": "sales",
+        "expect": "sales",
+        "got": "sales",
+        "ok": true
+      },
+      {
+        "query": "我脚宽适合什么跑鞋",
+        "domain": "sales",
+        "expect": "sales",
+        "got": "sales",
+        "ok": true
+      },
+      {
+        "query": "新手健身鞋怎么挑",
+        "domain": "sales",
+        "expect": "sales",
+        "got": "sales",
+        "ok": true
+      },
+      {
+        "query": "雨天防滑鞋有推荐吗",
+        "domain": "sales",
+        "expect": "sales",
+        "got": "sales",
+        "ok": true
+      },
+      {
+        "query": "长时间站立穿什么鞋",
+        "domain": "sales",
+        "expect": "sales",
+        "got": "sales",
+        "ok": true
+      },
+      {
+        "query": "女生力量训练适合哪款鞋",
+        "domain": "sales",
+        "expect": "sales",
+        "got": "sales",
+        "ok": true
+      },
+      {
+        "query": "秋冬通勤外套怎么选",
+        "domain": "sales",
+        "expect": "sales",
+        "got": "sales",
+        "ok": true
+      },
+      {
+        "query": "想买一套跑步入门装备",
+        "domain": "sales",
+        "expect": "sales",
+        "got": "sales",
+        "ok": true
+      },
+      {
+        "query": "有适合扁平足的鞋吗",
+        "domain": "sales",
+        "expect": "sales",
+        "got": "sales",
+        "ok": true
+      },
+      {
+        "query": "预算1000推荐高颜值穿搭",
+        "domain": "sales",
+        "expect": "sales",
+        "got": "sales",
+        "ok": true
+      },
+      {
+        "query": "轻量支撑型跑鞋推荐",
+        "domain": "sales",
+        "expect": "sales",
+        "got": "sales",
+        "ok": true
+      }
+    ]
+  },
+  "router": {
+    "total": 40,
+    "correct": 39,
+    "accuracy": 0.975,
+    "per_domain": {
+      "after_sales": {
+        "total": 10,
+        "correct": 10,
+        "accuracy": 1.0
+      },
+      "promo": {
+        "total": 10,
+        "correct": 10,
+        "accuracy": 1.0
+      },
+      "inventory": {
+        "total": 10,
+        "correct": 9,
+        "accuracy": 0.9
+      },
+      "sales": {
+        "total": 10,
+        "correct": 10,
+        "accuracy": 1.0
+      }
+    },
+    "details": [
+      {
+        "query": "我想退货怎么办",
+        "domain": "after_sales",
+        "expect": "after_sales",
+        "got": "after_sales",
+        "ok": true
+      },
+      {
+        "query": "这笔订单可以换码吗",
+        "domain": "after_sales",
+        "expect": "after_sales",
+        "got": "after_sales",
+        "ok": true
+      },
+      {
+        "query": "我的退款什么时候到账",
+        "domain": "after_sales",
+        "expect": "after_sales",
+        "got": "after_sales",
+        "ok": true
+      },
+      {
+        "query": "物流显示异常怎么处理",
+        "domain": "after_sales",
+        "expect": "after_sales",
+        "got": "after_sales",
+        "ok": true
+      },
+      {
+        "query": "订单已经发货还能改地址吗",
+        "domain": "after_sales",
+        "expect": "after_sales",
+        "got": "after_sales",
+        "ok": true
+      },
+      {
+        "query": "包裹一直没更新物流",
+        "domain": "after_sales",
+        "expect": "after_sales",
+        "got": "after_sales",
+        "ok": true
+      },
+      {
+        "query": "我收到的鞋子有瑕疵怎么售后",
+        "domain": "after_sales",
+        "expect": "after_sales",
+        "got": "after_sales",
+        "ok": true
+      },
+      {
+        "query": "取消订单后钱没退回来",
+        "domain": "after_sales",
+        "expect": "after_sales",
+        "got": "after_sales",
+        "ok": true
+      },
+      {
+        "query": "运单号查不到信息",
+        "domain": "after_sales",
+        "expect": "after_sales",
+        "got": "after_sales",
+        "ok": true
+      },
+      {
+        "query": "退货需要自己付邮费吗",
+        "domain": "after_sales",
+        "expect": "after_sales",
+        "got": "after_sales",
+        "ok": true
+      },
+      {
+        "query": "现在有会员折扣吗",
+        "domain": "promo",
+        "expect": "promo",
+        "got": "promo",
+        "ok": true
+      },
+      {
+        "query": "学生认证有优惠活动吗",
+        "domain": "promo",
+        "expect": "promo",
+        "got": "promo",
+        "ok": true
+      },
+      {
+        "query": "满减活动怎么叠加",
+        "domain": "promo",
+        "expect": "promo",
+        "got": "promo",
+        "ok": true
+      },
+      {
+        "query": "有没有限时折扣",
+        "domain": "promo",
+        "expect": "promo",
+        "got": "promo",
+        "ok": true
+      },
+      {
+        "query": "会员日有什么福利",
+        "domain": "promo",
+        "expect": "promo",
+        "got": "promo",
+        "ok": true
+      },
+      {
+        "query": "优惠券可以和活动同用吗",
+        "domain": "promo",
+        "expect": "promo",
+        "got": "promo",
+        "ok": true
+      },
+      {
+        "query": "最近有什么促销",
+        "domain": "promo",
+        "expect": "promo",
+        "got": "promo",
+        "ok": true
+      },
+      {
+        "query": "新人首单有优惠吗",
+        "domain": "promo",
+        "expect": "promo",
+        "got": "promo",
+        "ok": true
+      },
+      {
+        "query": "如何升级会员等级",
+        "domain": "promo",
+        "expect": "promo",
+        "got": "promo",
+        "ok": true
+      },
+      {
+        "query": "生日月会发券吗",
+        "domain": "promo",
+        "expect": "promo",
+        "got": "promo",
+        "ok": true
+      },
+      {
+        "query": "Air Max 90有41码吗",
+        "domain": "inventory",
+        "expect": "inventory",
+        "got": "inventory",
+        "ok": true
+      },
+      {
+        "query": "这款跑鞋还有黑色吗",
+        "domain": "inventory",
+        "expect": "inventory",
+        "got": "sales",
+        "ok": false
+      },
+      {
+        "query": "L码卫衣现在有货吗",
+        "domain": "inventory",
+        "expect": "inventory",
+        "got": "inventory",
+        "ok": true
+      },
+      {
+        "query": "白色款现在断货了吗",
+        "domain": "inventory",
+        "expect": "inventory",
+        "got": "inventory",
+        "ok": true
+      },
+      {
+        "query": "42.5码什么时候补货",
+        "domain": "inventory",
+        "expect": "inventory",
+        "got": "inventory",
+        "ok": true
+      },
+      {
+        "query": "这双鞋有女款38码吗",
+        "domain": "inventory",
+        "expect": "inventory",
+        "got": "inventory",
+        "ok": true
+      },
+      {
+        "query": "红色M码短裤有库存吗",
+        "domain": "inventory",
+        "expect": "inventory",
+        "got": "inventory",
+        "ok": true
+      },
+      {
+        "query": "这件外套还有XL吗",
+        "domain": "inventory",
+        "expect": "inventory",
+        "got": "inventory",
+        "ok": true
+      },
+      {
+        "query": "蓝色款和灰色款都在库吗",
+        "domain": "inventory",
+        "expect": "inventory",
+        "got": "inventory",
+        "ok": true
+      },
+      {
+        "query": "有现货可以今天发吗",
+        "domain": "inventory",
+        "expect": "inventory",
+        "got": "inventory",
+        "ok": true
+      },
+      {
+        "query": "推荐一双适合通勤的鞋",
+        "domain": "sales",
+        "expect": "sales",
+        "got": "sales",
+        "ok": true
+      },
+      {
+        "query": "我想买轻便跑步鞋，预算800",
+        "domain": "sales",
+        "expect": "sales",
+        "got": "sales",
+        "ok": true
+      },
+      {
+        "query": "平时健身穿什么鞋舒服",
+        "domain": "sales",
+        "expect": "sales",
+        "got": "sales",
+        "ok": true
+      },
+      {
+        "query": "给我配一套春季训练穿搭",
+        "domain": "sales",
+        "expect": "sales",
+        "got": "sales",
+        "ok": true
+      },
+      {
+        "query": "脚弓偏高适合哪类跑鞋",
+        "domain": "sales",
+        "expect": "sales",
+        "got": "sales",
+        "ok": true
+      },
+      {
+        "query": "第一次跑半马买什么鞋",
+        "domain": "sales",
+        "expect": "sales",
+        "got": "sales",
+        "ok": true
+      },
+      {
+        "query": "我想要缓震好的篮球鞋",
+        "domain": "sales",
+        "expect": "sales",
+        "got": "sales",
+        "ok": true
+      },
+      {
+        "query": "通勤和周末都能穿的鞋有吗",
+        "domain": "sales",
+        "expect": "sales",
+        "got": "sales",
+        "ok": true
+      },
+      {
+        "query": "预算500以内推荐一套运动装",
+        "domain": "sales",
+        "expect": "sales",
+        "got": "sales",
+        "ok": true
+      },
+      {
+        "query": "夏天透气一点的训练服怎么选",
+        "domain": "sales",
+        "expect": "sales",
+        "got": "sales",
+        "ok": true
+      }
+    ]
+  },
+  "rag": {
+    "total": 32,
+    "hit": 32,
+    "hit_rate": 1.0,
+    "per_domain": {
+      "sales": {
+        "total": 8,
+        "hit": 8,
+        "hit_rate": 1.0
+      },
+      "promo": {
+        "total": 8,
+        "hit": 8,
+        "hit_rate": 1.0
+      },
+      "after_sales": {
+        "total": 8,
+        "hit": 8,
+        "hit_rate": 1.0
+      },
+      "inventory": {
+        "total": 8,
+        "hit": 8,
+        "hit_rate": 1.0
+      }
+    },
+    "details": [
+      {
+        "query": "跑步鞋怎么选",
+        "domain": "sales",
+        "expect_topic": "鞋",
+        "ok": true
+      },
+      {
+        "query": "脚宽适合哪种跑鞋",
+        "domain": "sales",
+        "expect_topic": "鞋",
+        "ok": true
+      },
+      {
+        "query": "缓震和支撑有啥区别",
+        "domain": "sales",
+        "expect_topic": "鞋",
+        "ok": true
+      },
+      {
+        "query": "篮球鞋和跑鞋能混穿吗",
+        "domain": "sales",
+        "expect_topic": "鞋",
+        "ok": true
+      },
+      {
+        "query": "通勤鞋推荐",
+        "domain": "sales",
+        "expect_topic": "鞋",
+        "ok": true
+      },
+      {
+        "query": "半马训练鞋建议",
+        "domain": "sales",
+        "expect_topic": "鞋",
+        "ok": true
+      },
+      {
+        "query": "扁平足跑鞋怎么选",
+        "domain": "sales",
+        "expect_topic": "鞋",
+        "ok": true
+      },
+      {
+        "query": "夏季透气跑鞋推荐",
+        "domain": "sales",
+        "expect_topic": "鞋",
+        "ok": true
+      },
+      {
+        "query": "会员权益有哪些",
+        "domain": "promo",
+        "expect_topic": "会员",
+        "ok": true
+      },
+      {
+        "query": "会员折扣怎么用",
+        "domain": "promo",
+        "expect_topic": "会员",
+        "ok": true
+      },
+      {
+        "query": "生日月有没有券",
+        "domain": "promo",
+        "expect_topic": "会员",
+        "ok": true
+      },
+      {
+        "query": "学生优惠怎么认证",
+        "domain": "promo",
+        "expect_topic": "会员",
+        "ok": true
+      },
+      {
+        "query": "活动和会员价能叠加吗",
+        "domain": "promo",
+        "expect_topic": "会员",
+        "ok": true
+      },
+      {
+        "query": "积分怎么抵扣",
+        "domain": "promo",
+        "expect_topic": "会员",
+        "ok": true
+      },
+      {
+        "query": "新人券使用规则",
+        "domain": "promo",
+        "expect_topic": "会员",
+        "ok": true
+      },
+      {
+        "query": "会员等级怎么提升",
+        "domain": "promo",
+        "expect_topic": "会员",
+        "ok": true
+      },
+      {
+        "query": "退货政策是怎样的",
+        "domain": "after_sales",
+        "expect_topic": "售后",
+        "ok": true
+      },
+      {
+        "query": "退款多久到账",
+        "domain": "after_sales",
+        "expect_topic": "售后",
+        "ok": true
+      },
+      {
+        "query": "发货后还能改地址吗",
+        "domain": "after_sales",
+        "expect_topic": "售后",
+        "ok": true
+      },
+      {
+        "query": "物流异常如何处理",
+        "domain": "after_sales",
+        "expect_topic": "售后",
+        "ok": true
+      },
+      {
+        "query": "订单取消后退款流程",
+        "domain": "after_sales",
+        "expect_topic": "售后",
+        "ok": true
+      },
+      {
+        "query": "换货需要运费吗",
+        "domain": "after_sales",
+        "expect_topic": "售后",
+        "ok": true
+      },
+      {
+        "query": "签收后还能申请售后吗",
+        "domain": "after_sales",
+        "expect_topic": "售后",
+        "ok": true
+      },
+      {
+        "query": "运单查不到怎么办",
+        "domain": "after_sales",
+        "expect_topic": "售后",
+        "ok": true
+      },
+      {
+        "query": "尺码怎么选更合适",
+        "domain": "inventory",
+        "expect_topic": "尺码",
+        "ok": true
+      },
+      {
+        "query": "女款38码对应什么脚长",
+        "domain": "inventory",
+        "expect_topic": "尺码",
+        "ok": true
+      },
+      {
+        "query": "尺码偏大还是偏小",
+        "domain": "inventory",
+        "expect_topic": "尺码",
+        "ok": true
+      },
+      {
+        "query": "没有我的尺码怎么办",
+        "domain": "inventory",
+        "expect_topic": "尺码",
+        "ok": true
+      },
+      {
+        "query": "颜色和尺码同时缺货怎么处理",
+        "domain": "inventory",
+        "expect_topic": "尺码",
+        "ok": true
+      },
+      {
+        "query": "鞋码不合适怎么换",
+        "domain": "inventory",
+        "expect_topic": "尺码",
+        "ok": true
+      },
+      {
+        "query": "尺码表在哪里看",
+        "domain": "inventory",
+        "expect_topic": "尺码",
+        "ok": true
+      },
+      {
+        "query": "男款女款尺码怎么对照",
+        "domain": "inventory",
+        "expect_topic": "尺码",
+        "ok": true
+      }
+    ]
+  }
+}

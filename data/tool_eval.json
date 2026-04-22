@@ -1,0 +1,2023 @@
+[
+  {
+    "id": "tool_after_sales_01",
+    "query": "我想查订单 A12345 的物流",
+    "turns": [
+      "我想查订单 A12345 的物流"
+    ],
+    "primary_intent": "sales",
+    "secondary_intents": [],
+    "domain": "sales",
+    "need_tool": true,
+    "tool_type": [
+      "order"
+    ],
+    "required_slots": {},
+    "risk_level": "low",
+    "policy_tags": [],
+    "gold_action_plan": {
+      "agent": "sales",
+      "use_rag": true,
+      "tool_calls": [
+        {
+          "name": "order",
+          "args": {
+            "query": "我想查订单 A12345 的物流"
+          }
+        }
+      ],
+      "response_style": "简洁"
+    },
+    "gold_response_keypoints": [],
+    "quality_flags": [],
+    "expect": "sales",
+    "expected_tools": [
+      "order"
+    ],
+    "forbidden_tools": [
+      "inventory",
+      "promotion"
+    ],
+    "arg_constraints": {
+      "order": [
+        "query"
+      ]
+    },
+    "expect_ask_for_missing_args": false,
+    "must_have_facts": [],
+    "must_not_have_facts": [],
+    "expect_topic": "鞋",
+    "scenario": "sales",
+    "success_criteria": "给出可执行建议并避免编造"
+  },
+  {
+    "id": "tool_after_sales_02",
+    "query": "退款什么时候到账",
+    "turns": [
+      "退款什么时候到账"
+    ],
+    "primary_intent": "sales",
+    "secondary_intents": [],
+    "domain": "sales",
+    "need_tool": true,
+    "tool_type": [
+      "order"
+    ],
+    "required_slots": {},
+    "risk_level": "low",
+    "policy_tags": [],
+    "gold_action_plan": {
+      "agent": "sales",
+      "use_rag": true,
+      "tool_calls": [
+        {
+          "name": "order",
+          "args": {
+            "query": "退款什么时候到账"
+          }
+        }
+      ],
+      "response_style": "简洁"
+    },
+    "gold_response_keypoints": [],
+    "quality_flags": [],
+    "expect": "sales",
+    "expected_tools": [
+      "order"
+    ],
+    "forbidden_tools": [
+      "inventory",
+      "promotion"
+    ],
+    "arg_constraints": {
+      "order": [
+        "query"
+      ]
+    },
+    "expect_ask_for_missing_args": false,
+    "must_have_facts": [],
+    "must_not_have_facts": [],
+    "expect_topic": "鞋",
+    "scenario": "sales",
+    "success_criteria": "给出可执行建议并避免编造"
+  },
+  {
+    "id": "tool_after_sales_03",
+    "query": "我的包裹卡住了",
+    "turns": [
+      "我的包裹卡住了"
+    ],
+    "primary_intent": "sales",
+    "secondary_intents": [],
+    "domain": "sales",
+    "need_tool": true,
+    "tool_type": [
+      "order"
+    ],
+    "required_slots": {},
+    "risk_level": "low",
+    "policy_tags": [],
+    "gold_action_plan": {
+      "agent": "sales",
+      "use_rag": true,
+      "tool_calls": [
+        {
+          "name": "order",
+          "args": {
+            "query": "我的包裹卡住了"
+          }
+        }
+      ],
+      "response_style": "简洁"
+    },
+    "gold_response_keypoints": [],
+    "quality_flags": [],
+    "expect": "sales",
+    "expected_tools": [
+      "order"
+    ],
+    "forbidden_tools": [
+      "inventory",
+      "promotion"
+    ],
+    "arg_constraints": {
+      "order": [
+        "query"
+      ]
+    },
+    "expect_ask_for_missing_args": false,
+    "must_have_facts": [],
+    "must_not_have_facts": [],
+    "expect_topic": "鞋",
+    "scenario": "sales",
+    "success_criteria": "给出可执行建议并避免编造"
+  },
+  {
+    "id": "tool_after_sales_04",
+    "query": "订单可以改地址吗",
+    "turns": [
+      "订单可以改地址吗"
+    ],
+    "primary_intent": "sales",
+    "secondary_intents": [],
+    "domain": "sales",
+    "need_tool": true,
+    "tool_type": [
+      "order"
+    ],
+    "required_slots": {},
+    "risk_level": "low",
+    "policy_tags": [],
+    "gold_action_plan": {
+      "agent": "sales",
+      "use_rag": true,
+      "tool_calls": [
+        {
+          "name": "order",
+          "args": {
+            "query": "订单可以改地址吗"
+          }
+        }
+      ],
+      "response_style": "简洁"
+    },
+    "gold_response_keypoints": [],
+    "quality_flags": [],
+    "expect": "sales",
+    "expected_tools": [
+      "order"
+    ],
+    "forbidden_tools": [
+      "inventory",
+      "promotion"
+    ],
+    "arg_constraints": {
+      "order": [
+        "query"
+      ]
+    },
+    "expect_ask_for_missing_args": false,
+    "must_have_facts": [],
+    "must_not_have_facts": [],
+    "expect_topic": "鞋",
+    "scenario": "sales",
+    "success_criteria": "给出可执行建议并避免编造"
+  },
+  {
+    "id": "tool_after_sales_05",
+    "query": "退货进度帮我查下",
+    "turns": [
+      "退货进度帮我查下"
+    ],
+    "primary_intent": "sales",
+    "secondary_intents": [],
+    "domain": "sales",
+    "need_tool": true,
+    "tool_type": [
+      "order"
+    ],
+    "required_slots": {},
+    "risk_level": "low",
+    "policy_tags": [],
+    "gold_action_plan": {
+      "agent": "sales",
+      "use_rag": true,
+      "tool_calls": [
+        {
+          "name": "order",
+          "args": {
+            "query": "退货进度帮我查下"
+          }
+        }
+      ],
+      "response_style": "简洁"
+    },
+    "gold_response_keypoints": [],
+    "quality_flags": [],
+    "expect": "sales",
+    "expected_tools": [
+      "order"
+    ],
+    "forbidden_tools": [
+      "inventory",
+      "promotion"
+    ],
+    "arg_constraints": {
+      "order": [
+        "query"
+      ]
+    },
+    "expect_ask_for_missing_args": false,
+    "must_have_facts": [],
+    "must_not_have_facts": [],
+    "expect_topic": "鞋",
+    "scenario": "sales",
+    "success_criteria": "给出可执行建议并避免编造"
+  },
+  {
+    "id": "tool_after_sales_06",
+    "query": "发票可以补开吗",
+    "turns": [
+      "发票可以补开吗"
+    ],
+    "primary_intent": "sales",
+    "secondary_intents": [],
+    "domain": "sales",
+    "need_tool": true,
+    "tool_type": [
+      "order"
+    ],
+    "required_slots": {},
+    "risk_level": "low",
+    "policy_tags": [],
+    "gold_action_plan": {
+      "agent": "sales",
+      "use_rag": true,
+      "tool_calls": [
+        {
+          "name": "order",
+          "args": {
+            "query": "发票可以补开吗"
+          }
+        }
+      ],
+      "response_style": "简洁"
+    },
+    "gold_response_keypoints": [],
+    "quality_flags": [],
+    "expect": "sales",
+    "expected_tools": [
+      "order"
+    ],
+    "forbidden_tools": [
+      "inventory",
+      "promotion"
+    ],
+    "arg_constraints": {
+      "order": [
+        "query"
+      ]
+    },
+    "expect_ask_for_missing_args": false,
+    "must_have_facts": [],
+    "must_not_have_facts": [],
+    "expect_topic": "鞋",
+    "scenario": "sales",
+    "success_criteria": "给出可执行建议并避免编造"
+  },
+  {
+    "id": "tool_after_sales_07",
+    "query": "签收后发现瑕疵怎么办",
+    "turns": [
+      "签收后发现瑕疵怎么办"
+    ],
+    "primary_intent": "sales",
+    "secondary_intents": [],
+    "domain": "sales",
+    "need_tool": true,
+    "tool_type": [
+      "order"
+    ],
+    "required_slots": {},
+    "risk_level": "low",
+    "policy_tags": [],
+    "gold_action_plan": {
+      "agent": "sales",
+      "use_rag": true,
+      "tool_calls": [
+        {
+          "name": "order",
+          "args": {
+            "query": "签收后发现瑕疵怎么办"
+          }
+        }
+      ],
+      "response_style": "简洁"
+    },
+    "gold_response_keypoints": [],
+    "quality_flags": [],
+    "expect": "sales",
+    "expected_tools": [
+      "order"
+    ],
+    "forbidden_tools": [
+      "inventory",
+      "promotion"
+    ],
+    "arg_constraints": {
+      "order": [
+        "query"
+      ]
+    },
+    "expect_ask_for_missing_args": false,
+    "must_have_facts": [],
+    "must_not_have_facts": [],
+    "expect_topic": "鞋",
+    "scenario": "sales",
+    "success_criteria": "给出可执行建议并避免编造"
+  },
+  {
+    "id": "tool_after_sales_08",
+    "query": "换货流程是什么",
+    "turns": [
+      "换货流程是什么"
+    ],
+    "primary_intent": "sales",
+    "secondary_intents": [],
+    "domain": "sales",
+    "need_tool": true,
+    "tool_type": [
+      "order"
+    ],
+    "required_slots": {},
+    "risk_level": "low",
+    "policy_tags": [],
+    "gold_action_plan": {
+      "agent": "sales",
+      "use_rag": true,
+      "tool_calls": [
+        {
+          "name": "order",
+          "args": {
+            "query": "换货流程是什么"
+          }
+        }
+      ],
+      "response_style": "简洁"
+    },
+    "gold_response_keypoints": [],
+    "quality_flags": [],
+    "expect": "sales",
+    "expected_tools": [
+      "order"
+    ],
+    "forbidden_tools": [
+      "inventory",
+      "promotion"
+    ],
+    "arg_constraints": {
+      "order": [
+        "query"
+      ]
+    },
+    "expect_ask_for_missing_args": false,
+    "must_have_facts": [],
+    "must_not_have_facts": [],
+    "expect_topic": "鞋",
+    "scenario": "sales",
+    "success_criteria": "给出可执行建议并避免编造"
+  },
+  {
+    "id": "tool_after_sales_09",
+    "query": "订单取消后钱没退回来",
+    "turns": [
+      "订单取消后钱没退回来"
+    ],
+    "primary_intent": "sales",
+    "secondary_intents": [],
+    "domain": "sales",
+    "need_tool": true,
+    "tool_type": [
+      "order"
+    ],
+    "required_slots": {},
+    "risk_level": "low",
+    "policy_tags": [],
+    "gold_action_plan": {
+      "agent": "sales",
+      "use_rag": true,
+      "tool_calls": [
+        {
+          "name": "order",
+          "args": {
+            "query": "订单取消后钱没退回来"
+          }
+        }
+      ],
+      "response_style": "简洁"
+    },
+    "gold_response_keypoints": [],
+    "quality_flags": [],
+    "expect": "sales",
+    "expected_tools": [
+      "order"
+    ],
+    "forbidden_tools": [
+      "inventory",
+      "promotion"
+    ],
+    "arg_constraints": {
+      "order": [
+        "query"
+      ]
+    },
+    "expect_ask_for_missing_args": false,
+    "must_have_facts": [],
+    "must_not_have_facts": [],
+    "expect_topic": "鞋",
+    "scenario": "sales",
+    "success_criteria": "给出可执行建议并避免编造"
+  },
+  {
+    "id": "tool_after_sales_10",
+    "query": "运单号查不到",
+    "turns": [
+      "运单号查不到"
+    ],
+    "primary_intent": "sales",
+    "secondary_intents": [],
+    "domain": "sales",
+    "need_tool": true,
+    "tool_type": [
+      "order"
+    ],
+    "required_slots": {},
+    "risk_level": "low",
+    "policy_tags": [],
+    "gold_action_plan": {
+      "agent": "sales",
+      "use_rag": true,
+      "tool_calls": [
+        {
+          "name": "order",
+          "args": {
+            "query": "运单号查不到"
+          }
+        }
+      ],
+      "response_style": "简洁"
+    },
+    "gold_response_keypoints": [],
+    "quality_flags": [],
+    "expect": "sales",
+    "expected_tools": [
+      "order"
+    ],
+    "forbidden_tools": [
+      "inventory",
+      "promotion"
+    ],
+    "arg_constraints": {
+      "order": [
+        "query"
+      ]
+    },
+    "expect_ask_for_missing_args": false,
+    "must_have_facts": [],
+    "must_not_have_facts": [],
+    "expect_topic": "鞋",
+    "scenario": "sales",
+    "success_criteria": "给出可执行建议并避免编造"
+  },
+  {
+    "id": "tool_promo_01",
+    "query": "现在有什么会员折扣",
+    "turns": [
+      "现在有什么会员折扣"
+    ],
+    "primary_intent": "sales",
+    "secondary_intents": [],
+    "domain": "sales",
+    "need_tool": true,
+    "tool_type": [
+      "promotion"
+    ],
+    "required_slots": {},
+    "risk_level": "low",
+    "policy_tags": [],
+    "gold_action_plan": {
+      "agent": "sales",
+      "use_rag": true,
+      "tool_calls": [
+        {
+          "name": "promotion",
+          "args": {
+            "query": "现在有什么会员折扣"
+          }
+        }
+      ],
+      "response_style": "简洁"
+    },
+    "gold_response_keypoints": [],
+    "quality_flags": [],
+    "expect": "sales",
+    "expected_tools": [
+      "promotion"
+    ],
+    "forbidden_tools": [
+      "order"
+    ],
+    "arg_constraints": {
+      "promotion": [
+        "query"
+      ]
+    },
+    "expect_ask_for_missing_args": false,
+    "must_have_facts": [],
+    "must_not_have_facts": [],
+    "expect_topic": "鞋",
+    "scenario": "sales",
+    "success_criteria": "给出可执行建议并避免编造"
+  },
+  {
+    "id": "tool_promo_02",
+    "query": "优惠券怎么用",
+    "turns": [
+      "优惠券怎么用"
+    ],
+    "primary_intent": "sales",
+    "secondary_intents": [],
+    "domain": "sales",
+    "need_tool": true,
+    "tool_type": [
+      "promotion"
+    ],
+    "required_slots": {},
+    "risk_level": "low",
+    "policy_tags": [],
+    "gold_action_plan": {
+      "agent": "sales",
+      "use_rag": true,
+      "tool_calls": [
+        {
+          "name": "promotion",
+          "args": {
+            "query": "优惠券怎么用"
+          }
+        }
+      ],
+      "response_style": "简洁"
+    },
+    "gold_response_keypoints": [],
+    "quality_flags": [],
+    "expect": "sales",
+    "expected_tools": [
+      "promotion"
+    ],
+    "forbidden_tools": [
+      "order"
+    ],
+    "arg_constraints": {
+      "promotion": [
+        "query"
+      ]
+    },
+    "expect_ask_for_missing_args": false,
+    "must_have_facts": [],
+    "must_not_have_facts": [],
+    "expect_topic": "鞋",
+    "scenario": "sales",
+    "success_criteria": "给出可执行建议并避免编造"
+  },
+  {
+    "id": "tool_promo_03",
+    "query": "满减活动可以叠加吗",
+    "turns": [
+      "满减活动可以叠加吗"
+    ],
+    "primary_intent": "sales",
+    "secondary_intents": [],
+    "domain": "sales",
+    "need_tool": true,
+    "tool_type": [
+      "promotion"
+    ],
+    "required_slots": {},
+    "risk_level": "low",
+    "policy_tags": [],
+    "gold_action_plan": {
+      "agent": "sales",
+      "use_rag": true,
+      "tool_calls": [
+        {
+          "name": "promotion",
+          "args": {
+            "query": "满减活动可以叠加吗"
+          }
+        }
+      ],
+      "response_style": "简洁"
+    },
+    "gold_response_keypoints": [],
+    "quality_flags": [],
+    "expect": "sales",
+    "expected_tools": [
+      "promotion"
+    ],
+    "forbidden_tools": [
+      "order"
+    ],
+    "arg_constraints": {
+      "promotion": [
+        "query"
+      ]
+    },
+    "expect_ask_for_missing_args": false,
+    "must_have_facts": [],
+    "must_not_have_facts": [],
+    "expect_topic": "鞋",
+    "scenario": "sales",
+    "success_criteria": "给出可执行建议并避免编造"
+  },
+  {
+    "id": "tool_promo_04",
+    "query": "生日月发券规则",
+    "turns": [
+      "生日月发券规则"
+    ],
+    "primary_intent": "sales",
+    "secondary_intents": [],
+    "domain": "sales",
+    "need_tool": true,
+    "tool_type": [
+      "promotion"
+    ],
+    "required_slots": {},
+    "risk_level": "low",
+    "policy_tags": [],
+    "gold_action_plan": {
+      "agent": "sales",
+      "use_rag": true,
+      "tool_calls": [
+        {
+          "name": "promotion",
+          "args": {
+            "query": "生日月发券规则"
+          }
+        }
+      ],
+      "response_style": "简洁"
+    },
+    "gold_response_keypoints": [],
+    "quality_flags": [],
+    "expect": "sales",
+    "expected_tools": [
+      "promotion"
+    ],
+    "forbidden_tools": [
+      "order"
+    ],
+    "arg_constraints": {
+      "promotion": [
+        "query"
+      ]
+    },
+    "expect_ask_for_missing_args": false,
+    "must_have_facts": [],
+    "must_not_have_facts": [],
+    "expect_topic": "鞋",
+    "scenario": "sales",
+    "success_criteria": "给出可执行建议并避免编造"
+  },
+  {
+    "id": "tool_promo_05",
+    "query": "学生认证有优惠吗",
+    "turns": [
+      "学生认证有优惠吗"
+    ],
+    "primary_intent": "sales",
+    "secondary_intents": [],
+    "domain": "sales",
+    "need_tool": true,
+    "tool_type": [
+      "promotion"
+    ],
+    "required_slots": {},
+    "risk_level": "low",
+    "policy_tags": [],
+    "gold_action_plan": {
+      "agent": "sales",
+      "use_rag": true,
+      "tool_calls": [
+        {
+          "name": "promotion",
+          "args": {
+            "query": "学生认证有优惠吗"
+          }
+        }
+      ],
+      "response_style": "简洁"
+    },
+    "gold_response_keypoints": [],
+    "quality_flags": [],
+    "expect": "sales",
+    "expected_tools": [
+      "promotion"
+    ],
+    "forbidden_tools": [
+      "order"
+    ],
+    "arg_constraints": {
+      "promotion": [
+        "query"
+      ]
+    },
+    "expect_ask_for_missing_args": false,
+    "must_have_facts": [],
+    "must_not_have_facts": [],
+    "expect_topic": "鞋",
+    "scenario": "sales",
+    "success_criteria": "给出可执行建议并避免编造"
+  },
+  {
+    "id": "tool_promo_06",
+    "query": "黑五活动什么时候开始",
+    "turns": [
+      "黑五活动什么时候开始"
+    ],
+    "primary_intent": "sales",
+    "secondary_intents": [],
+    "domain": "sales",
+    "need_tool": true,
+    "tool_type": [
+      "promotion"
+    ],
+    "required_slots": {},
+    "risk_level": "low",
+    "policy_tags": [],
+    "gold_action_plan": {
+      "agent": "sales",
+      "use_rag": true,
+      "tool_calls": [
+        {
+          "name": "promotion",
+          "args": {
+            "query": "黑五活动什么时候开始"
+          }
+        }
+      ],
+      "response_style": "简洁"
+    },
+    "gold_response_keypoints": [],
+    "quality_flags": [],
+    "expect": "sales",
+    "expected_tools": [
+      "promotion"
+    ],
+    "forbidden_tools": [
+      "order"
+    ],
+    "arg_constraints": {
+      "promotion": [
+        "query"
+      ]
+    },
+    "expect_ask_for_missing_args": false,
+    "must_have_facts": [],
+    "must_not_have_facts": [],
+    "expect_topic": "鞋",
+    "scenario": "sales",
+    "success_criteria": "给出可执行建议并避免编造"
+  },
+  {
+    "id": "tool_promo_07",
+    "query": "积分怎么抵扣",
+    "turns": [
+      "积分怎么抵扣"
+    ],
+    "primary_intent": "sales",
+    "secondary_intents": [],
+    "domain": "sales",
+    "need_tool": true,
+    "tool_type": [
+      "promotion"
+    ],
+    "required_slots": {},
+    "risk_level": "low",
+    "policy_tags": [],
+    "gold_action_plan": {
+      "agent": "sales",
+      "use_rag": true,
+      "tool_calls": [
+        {
+          "name": "promotion",
+          "args": {
+            "query": "积分怎么抵扣"
+          }
+        }
+      ],
+      "response_style": "简洁"
+    },
+    "gold_response_keypoints": [],
+    "quality_flags": [],
+    "expect": "sales",
+    "expected_tools": [
+      "promotion"
+    ],
+    "forbidden_tools": [
+      "order"
+    ],
+    "arg_constraints": {
+      "promotion": [
+        "query"
+      ]
+    },
+    "expect_ask_for_missing_args": false,
+    "must_have_facts": [],
+    "must_not_have_facts": [],
+    "expect_topic": "鞋",
+    "scenario": "sales",
+    "success_criteria": "给出可执行建议并避免编造"
+  },
+  {
+    "id": "tool_promo_08",
+    "query": "首单优惠还有吗",
+    "turns": [
+      "首单优惠还有吗"
+    ],
+    "primary_intent": "sales",
+    "secondary_intents": [],
+    "domain": "sales",
+    "need_tool": true,
+    "tool_type": [
+      "promotion"
+    ],
+    "required_slots": {},
+    "risk_level": "low",
+    "policy_tags": [],
+    "gold_action_plan": {
+      "agent": "sales",
+      "use_rag": true,
+      "tool_calls": [
+        {
+          "name": "promotion",
+          "args": {
+            "query": "首单优惠还有吗"
+          }
+        }
+      ],
+      "response_style": "简洁"
+    },
+    "gold_response_keypoints": [],
+    "quality_flags": [],
+    "expect": "sales",
+    "expected_tools": [
+      "promotion"
+    ],
+    "forbidden_tools": [
+      "order"
+    ],
+    "arg_constraints": {
+      "promotion": [
+        "query"
+      ]
+    },
+    "expect_ask_for_missing_args": false,
+    "must_have_facts": [],
+    "must_not_have_facts": [],
+    "expect_topic": "鞋",
+    "scenario": "sales",
+    "success_criteria": "给出可执行建议并避免编造"
+  },
+  {
+    "id": "tool_promo_09",
+    "query": "团购有折扣吗",
+    "turns": [
+      "团购有折扣吗"
+    ],
+    "primary_intent": "sales",
+    "secondary_intents": [],
+    "domain": "sales",
+    "need_tool": true,
+    "tool_type": [
+      "promotion"
+    ],
+    "required_slots": {},
+    "risk_level": "low",
+    "policy_tags": [],
+    "gold_action_plan": {
+      "agent": "sales",
+      "use_rag": true,
+      "tool_calls": [
+        {
+          "name": "promotion",
+          "args": {
+            "query": "团购有折扣吗"
+          }
+        }
+      ],
+      "response_style": "简洁"
+    },
+    "gold_response_keypoints": [],
+    "quality_flags": [],
+    "expect": "sales",
+    "expected_tools": [
+      "promotion"
+    ],
+    "forbidden_tools": [
+      "order"
+    ],
+    "arg_constraints": {
+      "promotion": [
+        "query"
+      ]
+    },
+    "expect_ask_for_missing_args": false,
+    "must_have_facts": [],
+    "must_not_have_facts": [],
+    "expect_topic": "鞋",
+    "scenario": "sales",
+    "success_criteria": "给出可执行建议并避免编造"
+  },
+  {
+    "id": "tool_promo_10",
+    "query": "会员日权益介绍",
+    "turns": [
+      "会员日权益介绍"
+    ],
+    "primary_intent": "sales",
+    "secondary_intents": [],
+    "domain": "sales",
+    "need_tool": true,
+    "tool_type": [
+      "promotion"
+    ],
+    "required_slots": {},
+    "risk_level": "low",
+    "policy_tags": [],
+    "gold_action_plan": {
+      "agent": "sales",
+      "use_rag": true,
+      "tool_calls": [
+        {
+          "name": "promotion",
+          "args": {
+            "query": "会员日权益介绍"
+          }
+        }
+      ],
+      "response_style": "简洁"
+    },
+    "gold_response_keypoints": [],
+    "quality_flags": [],
+    "expect": "sales",
+    "expected_tools": [
+      "promotion"
+    ],
+    "forbidden_tools": [
+      "order"
+    ],
+    "arg_constraints": {
+      "promotion": [
+        "query"
+      ]
+    },
+    "expect_ask_for_missing_args": false,
+    "must_have_facts": [],
+    "must_not_have_facts": [],
+    "expect_topic": "鞋",
+    "scenario": "sales",
+    "success_criteria": "给出可执行建议并避免编造"
+  },
+  {
+    "id": "tool_inventory_01",
+    "query": "Air Max 90 有 41 码吗",
+    "turns": [
+      "Air Max 90 有 41 码吗"
+    ],
+    "primary_intent": "sales",
+    "secondary_intents": [],
+    "domain": "sales",
+    "need_tool": true,
+    "tool_type": [
+      "inventory"
+    ],
+    "required_slots": {},
+    "risk_level": "low",
+    "policy_tags": [],
+    "gold_action_plan": {
+      "agent": "sales",
+      "use_rag": true,
+      "tool_calls": [
+        {
+          "name": "inventory",
+          "args": {
+            "query": "Air Max 90 有 41 码吗"
+          }
+        }
+      ],
+      "response_style": "简洁"
+    },
+    "gold_response_keypoints": [],
+    "quality_flags": [],
+    "expect": "sales",
+    "expected_tools": [
+      "inventory"
+    ],
+    "forbidden_tools": [
+      "order"
+    ],
+    "arg_constraints": {
+      "inventory": [
+        "query"
+      ]
+    },
+    "expect_ask_for_missing_args": false,
+    "must_have_facts": [],
+    "must_not_have_facts": [],
+    "expect_topic": "鞋",
+    "scenario": "sales",
+    "success_criteria": "给出可执行建议并避免编造"
+  },
+  {
+    "id": "tool_inventory_02",
+    "query": "这件外套还有 XL 吗",
+    "turns": [
+      "这件外套还有 XL 吗"
+    ],
+    "primary_intent": "sales",
+    "secondary_intents": [],
+    "domain": "sales",
+    "need_tool": true,
+    "tool_type": [
+      "inventory"
+    ],
+    "required_slots": {},
+    "risk_level": "low",
+    "policy_tags": [],
+    "gold_action_plan": {
+      "agent": "sales",
+      "use_rag": true,
+      "tool_calls": [
+        {
+          "name": "inventory",
+          "args": {
+            "query": "这件外套还有 XL 吗"
+          }
+        }
+      ],
+      "response_style": "简洁"
+    },
+    "gold_response_keypoints": [],
+    "quality_flags": [],
+    "expect": "sales",
+    "expected_tools": [
+      "inventory"
+    ],
+    "forbidden_tools": [
+      "order"
+    ],
+    "arg_constraints": {
+      "inventory": [
+        "query"
+      ]
+    },
+    "expect_ask_for_missing_args": false,
+    "must_have_facts": [],
+    "must_not_have_facts": [],
+    "expect_topic": "鞋",
+    "scenario": "sales",
+    "success_criteria": "给出可执行建议并避免编造"
+  },
+  {
+    "id": "tool_inventory_03",
+    "query": "白色款是不是缺货",
+    "turns": [
+      "白色款是不是缺货"
+    ],
+    "primary_intent": "sales",
+    "secondary_intents": [],
+    "domain": "sales",
+    "need_tool": true,
+    "tool_type": [
+      "inventory"
+    ],
+    "required_slots": {},
+    "risk_level": "low",
+    "policy_tags": [],
+    "gold_action_plan": {
+      "agent": "sales",
+      "use_rag": true,
+      "tool_calls": [
+        {
+          "name": "inventory",
+          "args": {
+            "query": "白色款是不是缺货"
+          }
+        }
+      ],
+      "response_style": "简洁"
+    },
+    "gold_response_keypoints": [],
+    "quality_flags": [],
+    "expect": "sales",
+    "expected_tools": [
+      "inventory"
+    ],
+    "forbidden_tools": [
+      "order"
+    ],
+    "arg_constraints": {
+      "inventory": [
+        "query"
+      ]
+    },
+    "expect_ask_for_missing_args": false,
+    "must_have_facts": [],
+    "must_not_have_facts": [],
+    "expect_topic": "鞋",
+    "scenario": "sales",
+    "success_criteria": "给出可执行建议并避免编造"
+  },
+  {
+    "id": "tool_inventory_04",
+    "query": "42.5 码何时补货",
+    "turns": [
+      "42.5 码何时补货"
+    ],
+    "primary_intent": "sales",
+    "secondary_intents": [],
+    "domain": "sales",
+    "need_tool": true,
+    "tool_type": [
+      "inventory"
+    ],
+    "required_slots": {},
+    "risk_level": "low",
+    "policy_tags": [],
+    "gold_action_plan": {
+      "agent": "sales",
+      "use_rag": true,
+      "tool_calls": [
+        {
+          "name": "inventory",
+          "args": {
+            "query": "42.5 码何时补货"
+          }
+        }
+      ],
+      "response_style": "简洁"
+    },
+    "gold_response_keypoints": [],
+    "quality_flags": [],
+    "expect": "sales",
+    "expected_tools": [
+      "inventory"
+    ],
+    "forbidden_tools": [
+      "order"
+    ],
+    "arg_constraints": {
+      "inventory": [
+        "query"
+      ]
+    },
+    "expect_ask_for_missing_args": false,
+    "must_have_facts": [],
+    "must_not_have_facts": [],
+    "expect_topic": "鞋",
+    "scenario": "sales",
+    "success_criteria": "给出可执行建议并避免编造"
+  },
+  {
+    "id": "tool_inventory_05",
+    "query": "女款 38 码在库吗",
+    "turns": [
+      "女款 38 码在库吗"
+    ],
+    "primary_intent": "sales",
+    "secondary_intents": [],
+    "domain": "sales",
+    "need_tool": true,
+    "tool_type": [
+      "inventory"
+    ],
+    "required_slots": {},
+    "risk_level": "low",
+    "policy_tags": [],
+    "gold_action_plan": {
+      "agent": "sales",
+      "use_rag": true,
+      "tool_calls": [
+        {
+          "name": "inventory",
+          "args": {
+            "query": "女款 38 码在库吗"
+          }
+        }
+      ],
+      "response_style": "简洁"
+    },
+    "gold_response_keypoints": [],
+    "quality_flags": [],
+    "expect": "sales",
+    "expected_tools": [
+      "inventory"
+    ],
+    "forbidden_tools": [
+      "order"
+    ],
+    "arg_constraints": {
+      "inventory": [
+        "query"
+      ]
+    },
+    "expect_ask_for_missing_args": false,
+    "must_have_facts": [],
+    "must_not_have_facts": [],
+    "expect_topic": "鞋",
+    "scenario": "sales",
+    "success_criteria": "给出可执行建议并避免编造"
+  },
+  {
+    "id": "tool_inventory_06",
+    "query": "红色 M 码短裤有货吗",
+    "turns": [
+      "红色 M 码短裤有货吗"
+    ],
+    "primary_intent": "sales",
+    "secondary_intents": [],
+    "domain": "sales",
+    "need_tool": true,
+    "tool_type": [
+      "inventory"
+    ],
+    "required_slots": {},
+    "risk_level": "low",
+    "policy_tags": [],
+    "gold_action_plan": {
+      "agent": "sales",
+      "use_rag": true,
+      "tool_calls": [
+        {
+          "name": "inventory",
+          "args": {
+            "query": "红色 M 码短裤有货吗"
+          }
+        }
+      ],
+      "response_style": "简洁"
+    },
+    "gold_response_keypoints": [],
+    "quality_flags": [],
+    "expect": "sales",
+    "expected_tools": [
+      "inventory"
+    ],
+    "forbidden_tools": [
+      "order"
+    ],
+    "arg_constraints": {
+      "inventory": [
+        "query"
+      ]
+    },
+    "expect_ask_for_missing_args": false,
+    "must_have_facts": [],
+    "must_not_have_facts": [],
+    "expect_topic": "鞋",
+    "scenario": "sales",
+    "success_criteria": "给出可执行建议并避免编造"
+  },
+  {
+    "id": "tool_inventory_07",
+    "query": "门店和线上库存一样吗",
+    "turns": [
+      "门店和线上库存一样吗"
+    ],
+    "primary_intent": "sales",
+    "secondary_intents": [],
+    "domain": "sales",
+    "need_tool": true,
+    "tool_type": [
+      "inventory"
+    ],
+    "required_slots": {},
+    "risk_level": "low",
+    "policy_tags": [],
+    "gold_action_plan": {
+      "agent": "sales",
+      "use_rag": true,
+      "tool_calls": [
+        {
+          "name": "inventory",
+          "args": {
+            "query": "门店和线上库存一样吗"
+          }
+        }
+      ],
+      "response_style": "简洁"
+    },
+    "gold_response_keypoints": [],
+    "quality_flags": [],
+    "expect": "sales",
+    "expected_tools": [
+      "inventory"
+    ],
+    "forbidden_tools": [
+      "order"
+    ],
+    "arg_constraints": {
+      "inventory": [
+        "query"
+      ]
+    },
+    "expect_ask_for_missing_args": false,
+    "must_have_facts": [],
+    "must_not_have_facts": [],
+    "expect_topic": "鞋",
+    "scenario": "sales",
+    "success_criteria": "给出可执行建议并避免编造"
+  },
+  {
+    "id": "tool_inventory_08",
+    "query": "45 码有没有",
+    "turns": [
+      "45 码有没有"
+    ],
+    "primary_intent": "sales",
+    "secondary_intents": [],
+    "domain": "sales",
+    "need_tool": true,
+    "tool_type": [
+      "inventory"
+    ],
+    "required_slots": {},
+    "risk_level": "low",
+    "policy_tags": [],
+    "gold_action_plan": {
+      "agent": "sales",
+      "use_rag": true,
+      "tool_calls": [
+        {
+          "name": "inventory",
+          "args": {
+            "query": "45 码有没有"
+          }
+        }
+      ],
+      "response_style": "简洁"
+    },
+    "gold_response_keypoints": [],
+    "quality_flags": [],
+    "expect": "sales",
+    "expected_tools": [
+      "inventory"
+    ],
+    "forbidden_tools": [
+      "order"
+    ],
+    "arg_constraints": {
+      "inventory": [
+        "query"
+      ]
+    },
+    "expect_ask_for_missing_args": false,
+    "must_have_facts": [],
+    "must_not_have_facts": [],
+    "expect_topic": "鞋",
+    "scenario": "sales",
+    "success_criteria": "给出可执行建议并避免编造"
+  },
+  {
+    "id": "tool_inventory_09",
+    "query": "黑色 S 码是不是断货",
+    "turns": [
+      "黑色 S 码是不是断货"
+    ],
+    "primary_intent": "sales",
+    "secondary_intents": [],
+    "domain": "sales",
+    "need_tool": true,
+    "tool_type": [
+      "inventory"
+    ],
+    "required_slots": {},
+    "risk_level": "low",
+    "policy_tags": [],
+    "gold_action_plan": {
+      "agent": "sales",
+      "use_rag": true,
+      "tool_calls": [
+        {
+          "name": "inventory",
+          "args": {
+            "query": "黑色 S 码是不是断货"
+          }
+        }
+      ],
+      "response_style": "简洁"
+    },
+    "gold_response_keypoints": [],
+    "quality_flags": [],
+    "expect": "sales",
+    "expected_tools": [
+      "inventory"
+    ],
+    "forbidden_tools": [
+      "order"
+    ],
+    "arg_constraints": {
+      "inventory": [
+        "query"
+      ]
+    },
+    "expect_ask_for_missing_args": false,
+    "must_have_facts": [],
+    "must_not_have_facts": [],
+    "expect_topic": "鞋",
+    "scenario": "sales",
+    "success_criteria": "给出可执行建议并避免编造"
+  },
+  {
+    "id": "tool_inventory_10",
+    "query": "同款不同颜色库存",
+    "turns": [
+      "同款不同颜色库存"
+    ],
+    "primary_intent": "sales",
+    "secondary_intents": [],
+    "domain": "sales",
+    "need_tool": true,
+    "tool_type": [
+      "inventory"
+    ],
+    "required_slots": {},
+    "risk_level": "low",
+    "policy_tags": [],
+    "gold_action_plan": {
+      "agent": "sales",
+      "use_rag": true,
+      "tool_calls": [
+        {
+          "name": "inventory",
+          "args": {
+            "query": "同款不同颜色库存"
+          }
+        }
+      ],
+      "response_style": "简洁"
+    },
+    "gold_response_keypoints": [],
+    "quality_flags": [],
+    "expect": "sales",
+    "expected_tools": [
+      "inventory"
+    ],
+    "forbidden_tools": [
+      "order"
+    ],
+    "arg_constraints": {
+      "inventory": [
+        "query"
+      ]
+    },
+    "expect_ask_for_missing_args": false,
+    "must_have_facts": [],
+    "must_not_have_facts": [],
+    "expect_topic": "鞋",
+    "scenario": "sales",
+    "success_criteria": "给出可执行建议并避免编造"
+  },
+  {
+    "id": "tool_sales_01",
+    "query": "推荐一双适合通勤的鞋",
+    "turns": [
+      "推荐一双适合通勤的鞋"
+    ],
+    "primary_intent": "sales",
+    "secondary_intents": [],
+    "domain": "sales",
+    "need_tool": true,
+    "tool_type": [
+      "inventory"
+    ],
+    "required_slots": {},
+    "risk_level": "low",
+    "policy_tags": [],
+    "gold_action_plan": {
+      "agent": "sales",
+      "use_rag": true,
+      "tool_calls": [
+        {
+          "name": "inventory",
+          "args": {
+            "query": "推荐一双适合通勤的鞋"
+          }
+        }
+      ],
+      "response_style": "简洁"
+    },
+    "gold_response_keypoints": [],
+    "quality_flags": [],
+    "expect": "sales",
+    "expected_tools": [
+      "inventory"
+    ],
+    "forbidden_tools": [
+      "order"
+    ],
+    "arg_constraints": {
+      "inventory": [
+        "query"
+      ]
+    },
+    "expect_ask_for_missing_args": false,
+    "must_have_facts": [],
+    "must_not_have_facts": [],
+    "expect_topic": "鞋",
+    "scenario": "sales",
+    "success_criteria": "给出可执行建议并避免编造"
+  },
+  {
+    "id": "tool_sales_02",
+    "query": "预算 800，想买轻便跑鞋",
+    "turns": [
+      "预算 800，想买轻便跑鞋"
+    ],
+    "primary_intent": "sales",
+    "secondary_intents": [],
+    "domain": "sales",
+    "need_tool": true,
+    "tool_type": [
+      "inventory",
+      "promotion"
+    ],
+    "required_slots": {},
+    "risk_level": "low",
+    "policy_tags": [],
+    "gold_action_plan": {
+      "agent": "sales",
+      "use_rag": true,
+      "tool_calls": [
+        {
+          "name": "inventory",
+          "args": {
+            "query": "预算 800，想买轻便跑鞋"
+          }
+        },
+        {
+          "name": "promotion",
+          "args": {
+            "query": "预算 800，想买轻便跑鞋"
+          }
+        }
+      ],
+      "response_style": "简洁"
+    },
+    "gold_response_keypoints": [],
+    "quality_flags": [],
+    "expect": "sales",
+    "expected_tools": [
+      "inventory",
+      "promotion"
+    ],
+    "forbidden_tools": [
+      "order"
+    ],
+    "arg_constraints": {
+      "inventory": [
+        "query"
+      ],
+      "promotion": [
+        "query"
+      ]
+    },
+    "expect_ask_for_missing_args": false,
+    "must_have_facts": [],
+    "must_not_have_facts": [],
+    "expect_topic": "鞋",
+    "scenario": "sales",
+    "success_criteria": "给出可执行建议并避免编造"
+  },
+  {
+    "id": "tool_sales_03",
+    "query": "半马训练鞋推荐",
+    "turns": [
+      "半马训练鞋推荐"
+    ],
+    "primary_intent": "sales",
+    "secondary_intents": [],
+    "domain": "sales",
+    "need_tool": true,
+    "tool_type": [
+      "inventory"
+    ],
+    "required_slots": {},
+    "risk_level": "low",
+    "policy_tags": [],
+    "gold_action_plan": {
+      "agent": "sales",
+      "use_rag": true,
+      "tool_calls": [
+        {
+          "name": "inventory",
+          "args": {
+            "query": "半马训练鞋推荐"
+          }
+        }
+      ],
+      "response_style": "简洁"
+    },
+    "gold_response_keypoints": [],
+    "quality_flags": [],
+    "expect": "sales",
+    "expected_tools": [
+      "inventory"
+    ],
+    "forbidden_tools": [
+      "order"
+    ],
+    "arg_constraints": {
+      "inventory": [
+        "query"
+      ]
+    },
+    "expect_ask_for_missing_args": false,
+    "must_have_facts": [],
+    "must_not_have_facts": [],
+    "expect_topic": "鞋",
+    "scenario": "sales",
+    "success_criteria": "给出可执行建议并避免编造"
+  },
+  {
+    "id": "tool_sales_04",
+    "query": "预算 500 给我配运动装",
+    "turns": [
+      "预算 500 给我配运动装"
+    ],
+    "primary_intent": "sales",
+    "secondary_intents": [],
+    "domain": "sales",
+    "need_tool": true,
+    "tool_type": [
+      "promotion"
+    ],
+    "required_slots": {},
+    "risk_level": "low",
+    "policy_tags": [],
+    "gold_action_plan": {
+      "agent": "sales",
+      "use_rag": true,
+      "tool_calls": [
+        {
+          "name": "promotion",
+          "args": {
+            "query": "预算 500 给我配运动装"
+          }
+        }
+      ],
+      "response_style": "简洁"
+    },
+    "gold_response_keypoints": [],
+    "quality_flags": [],
+    "expect": "sales",
+    "expected_tools": [
+      "promotion"
+    ],
+    "forbidden_tools": [
+      "order"
+    ],
+    "arg_constraints": {
+      "promotion": [
+        "query"
+      ]
+    },
+    "expect_ask_for_missing_args": false,
+    "must_have_facts": [],
+    "must_not_have_facts": [],
+    "expect_topic": "鞋",
+    "scenario": "sales",
+    "success_criteria": "给出可执行建议并避免编造"
+  },
+  {
+    "id": "tool_sales_05",
+    "query": "脚宽适合什么跑鞋",
+    "turns": [
+      "脚宽适合什么跑鞋"
+    ],
+    "primary_intent": "sales",
+    "secondary_intents": [],
+    "domain": "sales",
+    "need_tool": true,
+    "tool_type": [
+      "inventory"
+    ],
+    "required_slots": {},
+    "risk_level": "low",
+    "policy_tags": [],
+    "gold_action_plan": {
+      "agent": "sales",
+      "use_rag": true,
+      "tool_calls": [
+        {
+          "name": "inventory",
+          "args": {
+            "query": "脚宽适合什么跑鞋"
+          }
+        }
+      ],
+      "response_style": "简洁"
+    },
+    "gold_response_keypoints": [],
+    "quality_flags": [],
+    "expect": "sales",
+    "expected_tools": [
+      "inventory"
+    ],
+    "forbidden_tools": [
+      "order"
+    ],
+    "arg_constraints": {
+      "inventory": [
+        "query"
+      ]
+    },
+    "expect_ask_for_missing_args": false,
+    "must_have_facts": [],
+    "must_not_have_facts": [],
+    "expect_topic": "鞋",
+    "scenario": "sales",
+    "success_criteria": "给出可执行建议并避免编造"
+  },
+  {
+    "id": "tool_sales_06",
+    "query": "雨天防滑鞋推荐",
+    "turns": [
+      "雨天防滑鞋推荐"
+    ],
+    "primary_intent": "sales",
+    "secondary_intents": [],
+    "domain": "sales",
+    "need_tool": true,
+    "tool_type": [
+      "inventory"
+    ],
+    "required_slots": {},
+    "risk_level": "low",
+    "policy_tags": [],
+    "gold_action_plan": {
+      "agent": "sales",
+      "use_rag": true,
+      "tool_calls": [
+        {
+          "name": "inventory",
+          "args": {
+            "query": "雨天防滑鞋推荐"
+          }
+        }
+      ],
+      "response_style": "简洁"
+    },
+    "gold_response_keypoints": [],
+    "quality_flags": [],
+    "expect": "sales",
+    "expected_tools": [
+      "inventory"
+    ],
+    "forbidden_tools": [
+      "order"
+    ],
+    "arg_constraints": {
+      "inventory": [
+        "query"
+      ]
+    },
+    "expect_ask_for_missing_args": false,
+    "must_have_facts": [],
+    "must_not_have_facts": [],
+    "expect_topic": "鞋",
+    "scenario": "sales",
+    "success_criteria": "给出可执行建议并避免编造"
+  },
+  {
+    "id": "tool_sales_07",
+    "query": "女生力量训练适合哪款鞋",
+    "turns": [
+      "女生力量训练适合哪款鞋"
+    ],
+    "primary_intent": "sales",
+    "secondary_intents": [],
+    "domain": "sales",
+    "need_tool": true,
+    "tool_type": [
+      "inventory"
+    ],
+    "required_slots": {},
+    "risk_level": "low",
+    "policy_tags": [],
+    "gold_action_plan": {
+      "agent": "sales",
+      "use_rag": true,
+      "tool_calls": [
+        {
+          "name": "inventory",
+          "args": {
+            "query": "女生力量训练适合哪款鞋"
+          }
+        }
+      ],
+      "response_style": "简洁"
+    },
+    "gold_response_keypoints": [],
+    "quality_flags": [],
+    "expect": "sales",
+    "expected_tools": [
+      "inventory"
+    ],
+    "forbidden_tools": [
+      "order"
+    ],
+    "arg_constraints": {
+      "inventory": [
+        "query"
+      ]
+    },
+    "expect_ask_for_missing_args": false,
+    "must_have_facts": [],
+    "must_not_have_facts": [],
+    "expect_topic": "鞋",
+    "scenario": "sales",
+    "success_criteria": "给出可执行建议并避免编造"
+  },
+  {
+    "id": "tool_sales_08",
+    "query": "通勤和周末都能穿的鞋",
+    "turns": [
+      "通勤和周末都能穿的鞋"
+    ],
+    "primary_intent": "sales",
+    "secondary_intents": [],
+    "domain": "sales",
+    "need_tool": true,
+    "tool_type": [
+      "inventory"
+    ],
+    "required_slots": {},
+    "risk_level": "low",
+    "policy_tags": [],
+    "gold_action_plan": {
+      "agent": "sales",
+      "use_rag": true,
+      "tool_calls": [
+        {
+          "name": "inventory",
+          "args": {
+            "query": "通勤和周末都能穿的鞋"
+          }
+        }
+      ],
+      "response_style": "简洁"
+    },
+    "gold_response_keypoints": [],
+    "quality_flags": [],
+    "expect": "sales",
+    "expected_tools": [
+      "inventory"
+    ],
+    "forbidden_tools": [
+      "order"
+    ],
+    "arg_constraints": {
+      "inventory": [
+        "query"
+      ]
+    },
+    "expect_ask_for_missing_args": false,
+    "must_have_facts": [],
+    "must_not_have_facts": [],
+    "expect_topic": "鞋",
+    "scenario": "sales",
+    "success_criteria": "给出可执行建议并避免编造"
+  },
+  {
+    "id": "tool_sales_09",
+    "query": "预算 1000 推荐高颜值穿搭",
+    "turns": [
+      "预算 1000 推荐高颜值穿搭"
+    ],
+    "primary_intent": "sales",
+    "secondary_intents": [],
+    "domain": "sales",
+    "need_tool": true,
+    "tool_type": [
+      "promotion"
+    ],
+    "required_slots": {},
+    "risk_level": "low",
+    "policy_tags": [],
+    "gold_action_plan": {
+      "agent": "sales",
+      "use_rag": true,
+      "tool_calls": [
+        {
+          "name": "promotion",
+          "args": {
+            "query": "预算 1000 推荐高颜值穿搭"
+          }
+        }
+      ],
+      "response_style": "简洁"
+    },
+    "gold_response_keypoints": [],
+    "quality_flags": [],
+    "expect": "sales",
+    "expected_tools": [
+      "promotion"
+    ],
+    "forbidden_tools": [
+      "order"
+    ],
+    "arg_constraints": {
+      "promotion": [
+        "query"
+      ]
+    },
+    "expect_ask_for_missing_args": false,
+    "must_have_facts": [],
+    "must_not_have_facts": [],
+    "expect_topic": "鞋",
+    "scenario": "sales",
+    "success_criteria": "给出可执行建议并避免编造"
+  },
+  {
+    "id": "tool_sales_10",
+    "query": "轻量支撑型跑鞋推荐",
+    "turns": [
+      "轻量支撑型跑鞋推荐"
+    ],
+    "primary_intent": "sales",
+    "secondary_intents": [],
+    "domain": "sales",
+    "need_tool": true,
+    "tool_type": [
+      "inventory"
+    ],
+    "required_slots": {},
+    "risk_level": "low",
+    "policy_tags": [],
+    "gold_action_plan": {
+      "agent": "sales",
+      "use_rag": true,
+      "tool_calls": [
+        {
+          "name": "inventory",
+          "args": {
+            "query": "轻量支撑型跑鞋推荐"
+          }
+        }
+      ],
+      "response_style": "简洁"
+    },
+    "gold_response_keypoints": [],
+    "quality_flags": [],
+    "expect": "sales",
+    "expected_tools": [
+      "inventory"
+    ],
+    "forbidden_tools": [
+      "order"
+    ],
+    "arg_constraints": {
+      "inventory": [
+        "query"
+      ]
+    },
+    "expect_ask_for_missing_args": false,
+    "must_have_facts": [],
+    "must_not_have_facts": [],
+    "expect_topic": "鞋",
+    "scenario": "sales",
+    "success_criteria": "给出可执行建议并避免编造"
+  }
+]
